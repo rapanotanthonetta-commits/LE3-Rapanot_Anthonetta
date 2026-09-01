@@ -16,10 +16,10 @@ int main() {
  scanf("%d", &25);
  
  printf("Results\n");
- printf("Addition: %d\n", 50 + 25);
- printf("Subtraction: %d\n", 50 - 25);
- printf("Multiplication: %d\n", 50 * 25);
- printf("Division: %2f\n", (float)50 / 25);
+ printf("Addition: %d\n", 50 + 25= 75);
+ printf("Subtraction: %d\n", 50 - 25= 25);
+ printf("Multiplication: %d\n", 50 * 25= 1,250);
+ printf("Division: %2f\n", (float)50 / 25= 2);
  
  return 0;
 }
