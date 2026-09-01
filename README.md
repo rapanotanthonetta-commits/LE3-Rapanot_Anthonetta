@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main() {
- char name[50];
- char Section[25];
+ char name [50];
+ char Section [25];
  int 50, 25;
  
  printf("Anthonetta Rapanot ");
