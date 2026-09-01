@@ -1,25 +1,25 @@
-#include<stdio.h>
+#include <stdio.h>
+
 int main() {
- char name[100];
- char Section[50];
- int num1, num2;
- 
- printf("Anthonetta Rapanot");
- scanf(" %[^\n]", Anthonetta );
- printf("BSIT-1R14:");
- scanf(" %[^\n]",BSIT-1R14);
- 
- printf("Student Calculator\n");
- printf("100:");
- scanf("%d", &100);
- printf("50:");
- scanf("%d", &50);
- 
- printf("Results\n");
- printf("Addition: %d\n", 100 + 50);
- printf("Subtraction: %d\n", 100 - 50);
- printf("Multiplication: %d\n", 100 * 50);
- printf("Division: %2f\n", (float)100 / 50);
- 
- return 0;
+    char name[] = "Anthonetta Rapanot";
+    char section[] = "BSIT-1R14";
+    double num1 = 50;
+    double num2 = 25;
+
+    printf("Student Calculator\n");
+    printf("Student name: %s\n", name);
+    printf("Section: %s\n", section);
+
+    printf("\nResults:\n");
+    printf("%.0f + %.0f = %.0f\n", num1, num2, num1 + num2);
+    printf("%.0f - %.0f = %.0f\n", num1, num2, num1 - num2);
+    printf("%.0f * %.0f = %.0f\n", num1, num2, num1 * num2);
+
+    if (num2 != 0) {
+        printf("%.0f / %.0f = %.2f\n", num1, num2, num1 / num2);
+    } else {
+        printf("Division by zero is not allowed.\n");
+    }
+
+    return 0;
 }
